@@ -70,5 +70,12 @@ Use Remote Desktop to connect to your Windows 10 VM through its public IP addres
 <p>
 In Wireshark, filter for SSH traffic only.
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/68f69151-04b0-49ba-97f6-ba0f5db972b3" height="80%" width="80%" alt="Filter SSH"/>
-In your Windows 10 VM's command prompt, SSH into your Ubuntu VM through its private IP using "ssh (Ubuntu private IP)
+<br>In your Windows 10 VM's command prompt, SSH into your Ubuntu VM through its private IP using
+<br>"ssh (Ubuntu username)@(Ubuntu private IP)"
+<img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/701f03d7-1b3a-442c-9723-3e4478cd12c3" height="80%" width="80%" alt="SSH"/>
+<br>Enter "yes" if prompted to continue connecting and your Ubuntu VM's password (invisible text).
+<br>Enter Ubuntu commands such as "id", "pwd", "ls", etc. Log out of SSH using "exit".
+<img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/79b60a07-0c79-4a1b-ade8-5d099b10cbd6" height="80%" width="80%" alt="Ubuntu Commands"/>
+<br>Observe SSH traffic in Wireshark.
+<img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/e8f2f21d-a560-4d49-8a49-692e7326ae7e" height="80%" width="80%" alt="Observe SSH"/>
 </p>
