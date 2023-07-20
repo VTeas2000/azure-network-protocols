@@ -79,3 +79,18 @@ In Wireshark, filter for SSH traffic only.
 <br>Observe SSH traffic in Wireshark.
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/e8f2f21d-a560-4d49-8a49-692e7326ae7e" height="80%" width="80%" alt="Observe SSH"/>
 </p>
+
+<h3>Observe DNS Traffic</h3>
+In Wireshark, filter for DNS traffic only.
+<img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/6f3f4055-d926-441d-b560-2fe031af96e2" height="80%" width="80%" alt="Filter DNS"/>
+<br>In your Windows 10 VM's command prompt, check the IP addresses of public websites such as Google and Amazon using
+<br>"nslookup (public website)"<br>
+<img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/59589dc9-867b-43f1-8ffc-252fc9f4f52f" height="80%" width="80%" alt="Check IP"/>
+<br>Observe DNS traffic in Wireshark.
+<img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/a1d2b409-d14e-4cc3-97b1-d3159fb00056" height="80%" width="80%" alt="Observe DNS"/>
+
+<h3>Observe RDP Traffic</h3>
+In Wireshark, filter for RDP traffic only using "tcp.port == 3389"
+<br>Notice that there is constant traffic.
+<img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/dd39797e-b646-4ddb-a710-6608bc13dde3" height="80%" width="80%" alt="RDP"/>
+<br>This is due to the RDP protocol constantly live streaming one computer (Windows 10 VM) to another (your main device) through Remote Desktop Connection.
