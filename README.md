@@ -41,17 +41,17 @@ Use Remote Desktop to connect to your Windows 10 VM through its public IP addres
 <br>Within your Windows 10 VM, download and install Wireshark (Windows Intel Installer).
 <br>Open Wireshark and select "Ethernet".
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/4eb8ba85-9bae-4c95-8f84-aab81af7885f" height="80%" width="80%" alt="Wireshark"/>
-<br>Filter for ICMP traffic only.
+<br>Filter for ICMP traffic only.<br>
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/c0734b35-9232-4beb-8bc3-72cca5137e62" height="80%" width="80%" alt="Filter ICMP"/>
-<br>Open command prompt and ping your Ubuntu VM's private IP using "ping <ip address>"
+<br>Open command prompt and ping your Ubuntu VM's private IP using "ping (ip address)"
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/53edcbe9-c517-4eee-adeb-c75113679291" height="80%" width="80%" alt="Ping Ubuntu"/>
 <br>Observe ping requests and replies within Wireshark.
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/fa35979c-eb40-43b6-92a9-fe21e894d652" height="80%" width="80%" alt="Observe"/>
-<br>Ping a public website such as Google using "ping <website>"
+<br>Ping a public website such as Google using "ping (website)"
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/9c1636a1-2dcf-4c2b-a345-c7ed368e9a17" height="80%" width="80%" alt="Ping Website"/>
 <br>Observe the traffic in Wireshark.
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/1c003c22-b6a8-4d63-911d-2f4b7dd1b9a5" height="80%" width="80%" alt="Observe"/>
-<br>Perpetually ping your Ubuntu's VM through its private IP using "ping <ip address> -t"
+<br>Perpetually ping your Ubuntu's VM through its private IP using "ping (ip address) -t"
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/85f5f85a-d1de-4132-861c-0d1385476d83" height="80%" width="80%" alt="Perpetual Ping"/>
 <br>Back on Microsoft Azure on your main device, go to your Ubuntu VM's <b>network security group</b> and access its <b>inbound security rules</b>.
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/d6bc1bb3-74d9-43d8-ab1b-9f09e649e3c2" height="80%" width="80%" alt="Inbound"/>
