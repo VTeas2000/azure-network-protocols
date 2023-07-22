@@ -31,7 +31,7 @@ This tutorial outlines observing various network traffic to and from Azure Virtu
 <p>
 Create a Windows 10 virtual machine within a new resource group with any credentials. Keep them in mind.
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/41da9734-6363-470c-889f-15b70348773e" height="80%" width="80%" alt="Windows VM"/>
-<br>Create an Ubuntu virtual machine within the same resource group as the Windows 10 VM ensuring that the <b>authentication type</b> is "password" with any credentials. Keep them in mind.
+<br>Create an Ubuntu virtual machine within the same resource group as the Windows 10 VM ensuring that the <b>authentication type</b> is "password" with any credentials. Keep them in mind.<br>
 <img src="https://github.com/VTeas2000/azure-network-protocols/assets/60052902/08ba5512-b747-4db0-b83a-3c8d67f522b5" height="80%" width="80%" alt="Ubuntu VM"/>
 </p>
 
